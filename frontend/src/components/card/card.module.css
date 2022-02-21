@@ -1,0 +1,97 @@
+.card {
+    background: white;
+    border-radius: 0.2rem;
+    padding: 0.1rem 0.2rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5rem;
+}
+
+.leftSection {
+    width: 80%;
+    padding: 0.5rem;
+}
+
+.rightSection {
+    width: 20%;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    color: var(--dark-grey);
+    margin: 0;
+}
+
+.windSpeed, .temperature {
+    color: var(--dark-grey);
+    font-weight: bold;
+    padding-left: 0.5rem;
+}
+
+.contentWrapper {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.powerTxt {
+    color: var(--dark-grey);
+    font-weight: bold;
+}
+
+.activePower, .maxPower {
+    color: var(--dark-grey);
+    font-weight: bold;
+    padding-left: 0.5rem;
+}
+
+.progressBar {
+    height: 1.25rem;
+    width: 100%;
+    background: var(--medium-grey);
+    position: relative;
+}
+
+.percentageBar {
+    height: 1.25rem;
+    background: var(--green);
+    position: absolute;
+}
+
+.percentageNo {
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    color: white;
+}
+
+
+.eventBox {
+    min-height: 1.75rem;
+    color: white;
+    padding: 0.1rem 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+.redBox {
+    background: var(--event-red)
+}
+
+.yellowBox {
+    background: var(--event-yellow)
+}
+
+.greenBox {
+    background: var(--event-green)
+}
+
+.greyBox {
+    background: var(--event-grey)
+}

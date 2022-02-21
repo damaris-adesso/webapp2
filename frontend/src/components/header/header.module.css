@@ -1,0 +1,37 @@
+.header {
+    width: 100vw;
+    height: 4rem;
+    background: linear-gradient(90deg, #252a4e, #3c7876);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 1rem;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index:100;
+}
+
+
+.headline {
+    color: white;
+    font-weight: 300;
+    margin: 0;
+}
+
+.worldIcon {
+    position: absolute;
+    right: 1rem;
+}
+
+.worldIcon::before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 18px;
+    width: 7px;
+    height: 7px;
+    border-radius: 7.5px;
+    background-color: var(--green);
+ 
+ }
